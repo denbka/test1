@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  background: #282828;
+}
+
+.form {
+  margin: auto;
+  display: grid;
+  row-gap: 1rem;
+  width: 250px;
+}
+
+.form-control {
+  border: 3px solid #fff;
+}
+
+.form-control.error {
+  border-color: red;
+}
+
+.form-control.success {
+  border-color: green;
+}
+
+.form-control.not-valid {
+  border-color: orange;
+}
